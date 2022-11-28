@@ -16,8 +16,7 @@ int main() {
                 ++attempt;
                 std::cout << "Usuario incorrecto!" << " Le quedan " << 3 - attempt << " intentos" << std::endl;
                 continue;
-            }
-            else {
+            } else {
                 std::cout << "Usuario Correcto" << std::endl;
                 std::cout << "Ingrese su Password" << std::endl;
                 std::cin >> password;
@@ -25,8 +24,7 @@ int main() {
                             ++attempt;
                             std::cout << "Password incorrecto!" << " Le quedan " << 3 - attempt << " intentos" << std::endl;
                             continue;
-                            } else { std::cout << "WELCOME!" << std::endl; break; }
+                    } else { std::cout << "WELCOME!" << std::endl; break; }
             }
-
     }
 }
